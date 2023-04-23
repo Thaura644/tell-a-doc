@@ -1,0 +1,30 @@
+/* Navbar */
+.navbar {
+    background-color: #1f2937;
+  }
+  
+  .navbar__logo {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .navbar__link {
+    color: #d1d5db;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navbar__link:hover {
+    color: #ffffff;
+    background-color: #4b5563;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar__menu {
+      display: none;
+    }
+  }
+  
